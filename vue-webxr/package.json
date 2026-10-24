@@ -1,0 +1,19 @@
+{
+  "name": "vue-webxr",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WebXR for Vue + TresJS: AR session, Rapier physics, detected planes as colliders, and grabbing with hands or controllers.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "peerDependencies": {
+    "@dimforge/rapier3d-compat": "^0.20.0",
+    "@tresjs/rapier": "^1.2.0",
+    "@tresjs/core": "^5.8.3",
+    "three": "~0.172.0",
+    "vue": "^3.5.0"
+  }
+}
